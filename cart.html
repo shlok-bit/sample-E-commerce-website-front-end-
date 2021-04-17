@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SAMPLE E-COMMERCE WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body> 
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="PHOTOS/66e8ce39-3332-4bbb-98ad-bde7b56ab476.png" alt=""  width="130px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="PHOTOS/cart.png" alt="" width="30px" height="30px">
+            </a>
+            <img src="PHOTOS/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="small-container cart-page">
+
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Sub Total</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="PHOTOS/buy-1.png" alt="">
+                            <div>
+                                
+                                <small>Rs.400</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>Rs.400</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="PHOTOS/pro15-harmon kardon-14990.png" alt="">
+                            <div>
+                                
+                                <small>Rs.1499</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>Rs.1499</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="PHOTOS/pro12-fossil-14296.png" alt="">
+                            <div>
+                                
+                                <small>Rs.7667</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>Rs.7667</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="PHOTOS/pro11-AccessHer-39500.png" alt="">
+                            <div>
+                            
+                                <small>Rs.5667</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>Rs.5667</td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="PHOTOS/pro14-The Light Lamp-21360.png" alt="">
+                            <div>
+                                
+                                <small>Rs.2136</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>Rs.2136</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="PHOTOS/pro16-steve madden - 8999.png" alt="">
+                            <div>
+                                
+                                <small>Rs.899</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>Rs.899</td>
+                </tr>
+            </table>
+        
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Sub Total</td>
+                    <td>Rs.16369</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs.908</td>
+                </tr>
+                <tr>
+                    <td>Grand Total</td>
+                    <td>Rs.17277</td>
+                </tr>
+            </table>
+        </div>
+        
+        </div>
+        
+        
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our App</h3>
+                        <p>Download App for Andriod and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="PHOTOS/play-store.png" alt="">
+                            <img src="PHOTOS/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="PHOTOS/66e8ce39-3332-4bbb-98ad-bde7b56ab476.png" alt="">
+                        <p>Our purpose is to give the best quality product to the customer.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright &copy; 2021 - SHLOK CHATTERJEE</p>
+            </div>
+        </div>
+    
+    
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+    
+            MenuItems.style.maxHeight = "0px";
+    
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    
+</body>
+
+</html>
